@@ -3,7 +3,7 @@ import sys
 import argparse
 import subprocess
 from typing import Dict, Any, List, Union, Optional
-from get_cvc5_params import get_parameter_mappings, validate_param
+from get_params import get_parameter_mappings, validate_param
 
 class CVC5Solver:
     def __init__(self):
